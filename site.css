@@ -24,6 +24,24 @@ body{
         color: whitesmoke;
     }
 
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .navbar-links {
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+ 
+        }
+
+        .navbar-links a {
+            text-decoration: none;
+                    
+        }
+
     .card-deck {
         background-color: #4912f6;
         border: none;

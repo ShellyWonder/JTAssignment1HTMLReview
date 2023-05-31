@@ -1,7 +1,7 @@
 body{
     /*via adobe photoshop color picker from sample img provided*/
     background-color: #4912f6;
-    color: white;
+    color: rgb(10, 10, 10);
     }
 
     h1{
@@ -20,26 +20,40 @@ body{
             font-weight: 800;
             font-style: normal;
     }  
+    a{
+        color: whitesmoke;
+    }
 
-                .card-deck {
-                    background-color: transparent !important;
-                    border: none;
-                }
-        
-                .card {
-                    border: none;
-                }
-        
-                .card-img-top {
-                    height: 100%;
-                    object-fit: cover;
-                }
+    .card-deck {
+        background-color: #4912f6;
+        border: none;
+    }
+
+    .card {
+        border: none;
+        height: 100%;
+    }
+
+    .card-img-top {
+        height: 100%;
+        object-fit: cover;
+    }
 
 .underline {
     text-decoration: underline;
 }
 
 .btn{
+    color: white;
+    /*creates pill shape*/
+    border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
     /* GradientBkgrd*/
     background: #fc4a1a;
     /* fallback for old browsers */
@@ -49,15 +63,19 @@ body{
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* fonts*/
     font-family: "tablet-gothic", sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-style: normal;
+}
+
+.centerSection{
+    padding: 60px 0;
 }
 .upperText{
     font-family: "raleway", sans-serif;
         font-weight: 200;
         font-style: normal;
-        color: gray;
-        font-size:0.9em;
+        color: lightgray;
+        font-size:1em;
 }
 .lowerText{
 font-family: "poppins", sans-serif;

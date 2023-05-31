@@ -1,20 +1,66 @@
+body{
+    /*via adobe photoshop color picker from sample img provided*/
+    background-color: #4912f6;
+    color: white;
+    }
+
+    h1{
+        font-family: "canada-type-gibson", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+
+    }
+    h2{
+        font-family: "basic-sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+    h3{
+        font-family: "acumin-pro-wide", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+    }  
+
+                .card-deck {
+                    background-color: transparent !important;
+                    border: none;
+                }
+        
+                .card {
+                    border: none;
+                }
+        
+                .card-img-top {
+                    height: 100%;
+                    object-fit: cover;
+                }
 
 .underline {
     text-decoration: underline;
 }
-/*change logoFont with each project*/
-.logoFont {
-    font-family: kansasnew, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
 
-
-.btn-gradientBkgrd{
+.btn{
+    /* GradientBkgrd*/
     background: #fc4a1a;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f7b733, #fc4a1a);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* fonts*/
+    font-family: "tablet-gothic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+.upperText{
+    font-family: "raleway", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: gray;
+        font-size:0.9em;
+}
+.lowerText{
+font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }

@@ -1,19 +1,23 @@
 body{
     /*via adobe photoshop color picker from sample img provided*/
     background-color: #4912f6;
-    color: rgb(10, 10, 10);
+    color: white;
     }
 
     h1{
         font-family: "canada-type-gibson", sans-serif;
             font-weight: 600;
             font-style: normal;
+            font-size: 1.7em;
+            color:azure;
 
     }
     h2{
         font-family: "basic-sans", sans-serif;
             font-weight: 400;
             font-style: normal;
+            font-size: 1.25em;
+            color: azure;
     }
     h3{
         font-family: "acumin-pro-wide", sans-serif;
@@ -24,7 +28,7 @@ body{
         color: whitesmoke;
     }
 
-        .container-fluid {
+        .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -42,17 +46,9 @@ body{
                     
         }
 
-    .card-deck {
-        background-color: #4912f6;
-        border: none;
-    }
-
-    .card {
-        border: none;
-        height: 100%;
-    }
-
-    .card-img-top {
+    
+    .img-top {
+        width:auto;
         height: 100%;
         object-fit: cover;
     }
@@ -94,6 +90,19 @@ body{
         font-style: normal;
         color: lightgray;
         font-size:1em;
+}
+ #leftTop {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+        font-family: "raleway", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: gray;
+    font-size: 1.5em;
+    margin-top: 60px;
+
 }
 .lowerText{
 font-family: "poppins", sans-serif;

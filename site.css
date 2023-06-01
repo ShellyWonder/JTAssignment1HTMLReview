@@ -24,10 +24,16 @@ body{
             font-weight: 800;
             font-style: normal;
     }  
-    a{
+        /*sign in anchor tag*/
+        .signIn{
         color: whitesmoke;
-    }
-
+    }  
+       /*anchor states*/
+            .signIn:hover {
+                color: orange;
+                text-decoration: underline !important;
+        }
+            
         .container {
             display: flex;
             justify-content: space-between;

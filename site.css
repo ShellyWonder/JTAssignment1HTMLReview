@@ -16,13 +16,14 @@ body{
         font-family: "basic-sans", sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size: 1.25em;
+            font-size: 1.3em;
             color: azure;
     }
     h3{
         font-family: "acumin-pro-wide", sans-serif;
             font-weight: 800;
-            font-style: normal;
+            font-style: bold;
+            font-size: 1.4em;
     }  
         /*sign in anchor tag*/
         .signIn{
@@ -53,12 +54,6 @@ body{
         }
 
     
-    .img-top {
-        width:auto;
-        height: 100%;
-        object-fit: cover;
-    }
-
 .underline {
     text-decoration: underline;
 }
@@ -73,7 +68,7 @@ body{
         display: inline-block;
         margin: 4px 2px;
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 60px;
     /* GradientBkgrd*/
     background: #fc4a1a;
     /* fallback for old browsers */
@@ -87,6 +82,10 @@ body{
         font-style: normal;
 }
 
+.btn:hover{
+    color:azure;
+}
+
 .centerSection{
     padding: 60px 0;
 }
@@ -96,7 +95,13 @@ body{
         font-style: normal;
         color: lightgray;
         font-size:1em;
-}
+    }
+    .lowerText{
+    font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.25em;
+    }
  #leftTop {
     display: flex;
         flex-direction: column;
@@ -109,9 +114,4 @@ body{
     font-size: 1.5em;
     margin-top: 60px;
 
-}
-.lowerText{
-font-family: "poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
 }
